@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Lemon&family=Lobster&family=Pacifico&family=Roboto+Condensed:wght@100&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Grape Nuts', cursive;
+}
+
+header {
+    background-color:black;
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+
+.logo {
+    width:4%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 90%;
+}
+
+h1 {
+   color: white;
+   font-size: 40px;
+}
+
+main {
+    min-height: 75vh;
+}
+
+footer {
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+}
+
+.sponsor {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.copywrite {
+    color: white;
+    margin-right: 30px;
+}
+
+.stick {
+    width: 80%;
+    height: 5px;
+    background: black;
+}
+
+
+.menu-small {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    background: white;
+    transform: translateX(-100%);
+}
+
+.menu_small_item {
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_small_item:first-child {
+    padding-top: calc(50px + 2em);
+}
+
+.menu_small_icon {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    z-index: 1;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
